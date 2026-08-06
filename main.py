@@ -11,8 +11,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.types import InlineKeyboardButton
 
 # ==================== الإعدادات ====================
-BOT_TOKEN = os.getenv("8967781339:AAGkMaJVDOMjLXmySGt1HoQXP-9iyq0GC9A")
-
+BOT_TOKEN = "8967781339:AAGkMaJVDOMjLXmySGt1HoQXP-9iyq0GC9A"
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN environment variable is missing")
 CHANNELS_TO_CHECK = ["@ddev8"]
